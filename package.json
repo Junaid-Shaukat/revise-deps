@@ -1,0 +1,18 @@
+{
+  "name": "revise-deps",
+  "version": "1.0.0",
+  "description": "Dependency Management and Security Scanner",
+  "main": "index.js",
+  "bin": {
+    "revise-deps": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^7.2.0",
+    "semver": "^7.3.5"
+  }
+}
