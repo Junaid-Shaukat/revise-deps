@@ -1,18 +1,38 @@
 {
   "name": "revise-deps",
-  "version": "1.0.0",
-  "description": "Dependency Management and Security Scanner",
+  "version": "1.0.1",
+  "description": "A comprehensive dependency management and security scanner tool",
   "main": "index.js",
   "bin": {
     "revise-deps": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dependencies", "security", "scanner", "npm", "management", "package","dependency checker","dependency updater","vulnerability checker"],
+  "license": "MIT",
+  "author": {
+    "name": "Junaid Shaukat",
+    "email": "junaidshaukat546@gmail.com",
+    "url": "https://junaid-shaukat.github.io/myportfolio/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Junaid-Shaukat/revise-deps.git"
+  },
+  "homepage": "https://github.com/Junaid-Shaukat/revise-deps",
+  "bugs": {
+    "url": "https://github.com/Junaid-Shaukat/revise-deps/issues"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.2",
     "commander": "^7.2.0",
     "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^8.3.2"
   }
 }
